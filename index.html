@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login-container" class="form-container">
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="login()">Login</button>
+            <button type="button" onclick="showRegisterForm()">Register</button>
+        </form>
+    </div>
+
+    <div id="register-container" class="form-container" style="display: none;">
+        <form id="registerForm">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <button type="button" onclick="register()">Register</button>
+            <button type="button" onclick="showLoginForm()">Back to Login</button>
+        </form>
+    </div>
+
+    <h1 id="welcomeMessage" style="display: none;"></h1>
+
+    <div id="employeeManagement" style="display: none;">
+        <h1>Employee Management</h1>
+        <div class="form-container">
+            <form id="employeeForm">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="role">Role:</label>
+                <input type="text" id="role" name="role" required>
+
+                <label for="salary">Salary:</label>
+                <input type="text" id="salary" name="salary" required>
+
+                <button type="button"  onclick="addEmployee()">Add Employee</button>
+                <button type="button" id="saveBtn" style="display: none;" onclick="saveEmployee()">Save</button>
+                <button type="button" onclick="logout()">Logout</button>
+            </form>
+        </div>
+
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Salary</th>
+                    <th class="action">Action</th>
+                </tr>
+            </thead>
+            <tbody id="employeeList"></tbody>
+        </table>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
