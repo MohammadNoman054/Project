@@ -1,5 +1,5 @@
 # Employee Management System
-This is a simple Employee Management System implemented using HTML, CSS, and JavaScript for the front end, and Node.js, Express, and MongoDB for the backend. The system allows users to register, log in, add, edit, and delete employees. User data is stored in a MongoDB database.
+This is a simple Employee Management System implemented using HTML, CSS, and JavaScript for the frontend, and Node.js, Express, and MongoDB for the backend. The system allows users to register, log in, add, edit, and delete employees. User data is stored in a MongoDB database.
 
 -- Make sure you have the following installed on your machine:
 ~ Node
