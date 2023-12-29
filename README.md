@@ -8,7 +8,7 @@ This is a simple Employee Management System implemented using HTML, CSS, and Jav
 
 ## Installation
 Clone the repository:
-git clone https://https://github.com/MohammadNoman054/Project.git
+git clone https://github.com/MohammadNoman054/Project.git
 
 ## Navigate to the project directory:
 cd Project
