@@ -16,28 +16,45 @@ npm start
 Open your browser and visit http://localhost:3000 to access the Employee Management System.
 
 ## Usage
-## Frontend
 -- Registering a User
+
 ~ Open the application in your browser.
+
 ~ Click on the "Register" button.
+
 ~ Fill in the required information (username and password).
+
 ~ Click the "Register" button.
+
 ~ You will receive a registration success message.
 
 -- Logging In
+
 ~ Open the application in your browser.
+
 ~ Enter your username and password.
+
 ~ Click the "Login" button.
+
 ~ If successful, you will be redirected to the Employee Management dashboard.
 
 --Managing Employees
+
 ~ After logging in, you can add, edit, and delete employees.
+
 ~ Fill in the employee details in the form.
+
 ~ Click the "Add Employee" button to add a new employee.
+
 ~ To edit an existing employee, click the "Edit" button next to the employee in the table.
+
 ~ To delete an employee, click the "Delete" button next to the employee in the table.
+
 ~ Logout using the "Logout" button.
 
+
+## Frontend
+The frontend is built with Html , CSS and Javascript.
 
 ## Backend
 The backend is built with Node.js and Express, and it uses MongoDB as the database. 
